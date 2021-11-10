@@ -1,0 +1,20 @@
+.assessment-configuration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .assessment-configuration-container {
+    width: 30%;
+    margin-left: 32px;
+    min-width: 295px;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .assessment-configuration-container {
+    min-width: 394px;
+  }
+}

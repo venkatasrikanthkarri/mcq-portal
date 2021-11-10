@@ -1,0 +1,337 @@
+{
+  "questions": [
+    {
+      "question_key": "sample_1",
+      "skills": ["context", "consumer", "provider"],
+      "toughness": "EASY",
+      "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+      "explanation_for_answer": {
+        "content": "Context stores a single value.<br/><br/>Here, in the Provider Component, the value is an object which <b>replaces</b> the existing value of the context.<br/><br/>Here, the Provider component will update the context object.",
+        "content_type": "MARKDOWN"
+      },
+      "question_text": "Considering the given code snippets, what will be the count displayed on the web page when the <b>Increase</b> button is clicked?",
+      "multimedia": [],
+      "content_type": "HTML",
+      "input_output": [
+        {
+          "input": "",
+          "wrong_answers": ["10", "undefined"],
+          "output": ["11"]
+        }
+      ],
+      "code_metadata": [
+        {
+          "is_editable": false,
+          "language": "HTML",
+          "code_data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Document</title>\n  </head>\n  <body>\n    <h1>Heading</h1>\n    <h2>2nd level Heading</h2>\n    <p>Paragraph</p>\n  </body>\n</html>\n",
+          "default_code": true
+        }
+      ]
+    },
+    {
+      "question_key": "sample_2",
+      "skills": ["components"],
+      "toughness": "EASY",
+      "question_type": "MULTIPLE_CHOICE",
+      "question": {
+        "content": "Considering the given image, what would be the output displayed on the web page immediately after the mounting phase? ",
+        "content_type": "HTML",
+        "multimedia": [
+          {
+            "format": "IMAGE",
+            "url": "https://assets.ccbp.in/frontend/content/react-js/life-cycle-methods-set-2-buld-on-off.gif",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/content/react-js/life-cycle-methods-set-2-buld-on-off.gif"
+          }
+        ]
+      },
+      "options": [
+        {
+          "content": "",
+          "content_type": "TEXT",
+          "is_correct": true,
+          "multimedia": [
+            {
+              "format": "IMAGE",
+              "url": "https://assets.ccbp.in/frontend/content/react-js/life-cycle-methods-set-2-bulb-off.png",
+              "thumbnail_url": "https://assets.ccbp.in/frontend/content/react-js/life-cycle-methods-set-2-bulb-off.png"
+            }
+          ]
+        },
+        {
+          "content": "",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": [
+            {
+              "format": "IMAGE",
+              "url": "https://assets.ccbp.in/frontend/content/react-js/life-cycle-methods-set-2-bulb-on.png",
+              "thumbnail_url": "https://assets.ccbp.in/frontend/content/react-js/life-cycle-methods-set-2-bulb-on.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_key": "sample_3",
+      "skills": ["topic name", "unit name", "sub topic in unit"],
+      "toughness": "EASY",
+      "question_type": "HTML_TEXT",
+      "question_text": "User is unable to view the text \"Heading\", try making the changes in the code so that the user can see the document heading",
+      "multimedia": [
+        {
+          "multimedia_format": "IMAGE",
+          "multimedia_url": "https://assets.ccbp.in/frontend/content/react-js/context-2-mcq-component-not-render.png",
+          "thumbnail_url": "https://assets.ccbp.in/frontend/content/react-js/context-2-mcq-component-not-render.png"
+        }
+      ],
+      "content_type": "TEXT",
+      "language": "ENGLISH",
+      "default_code_metadata": {
+        "code_data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Document</title>\n    <h1>Heading</h1>\n  </head>\n  <body>\n    <h2>2nd level Heading</h2>\n    <p>Paragraph</p>\n  </body>\n</html>\n",
+        "default_code": true,
+        "language": "HTML"
+      },
+      "solution_code_metadata": {
+        "code_data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Document</title>\n  </head>\n  <body>\n    <h1>Heading</h1>\n    <h2>2nd level Heading</h2>\n    <p>Paragraph</p>\n  </body>\n</html>\n",
+        "default_code": true,
+        "language": "HTML"
+      },
+      "short_text": "",
+      "question_asked_by_companies_info": []
+    },
+    {
+      "question_key": "sample_4",
+      "skills": ["react_basics"],
+      "toughness": "EASY",
+      "question_type": "MULTIPLE_CHOICE",
+      "question": {
+        "content": "Which of the following options is correct?<br/>Statement-1: React class components have state and lifecycle methods.<br/>Statement-2: React functional components have lifecycle methods.",
+        "content_type": "HTML",
+        "multimedia": []
+      },
+      "options": [
+        {
+          "content": "Only Statement-1 is correct",
+          "content_type": "TEXT",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "Both Statement-1 and Statement-2 are correct",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        },
+        {
+          "content": "Only Statement-2 is correct",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        },
+        {
+          "content": "Both Statement-1 and Statement-2 are wrong",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        }
+      ]
+    },
+    {
+      "question_key": "sample_5",
+      "skills": ["script_tag"],
+      "toughness": "EASY",
+      "question_type": "MULTIPLE_CHOICE",
+      "question": {
+        "content": "React provided the built-in State Hook to add state to the functional components.",
+        "content_type": "HTML",
+        "multimedia": []
+      },
+      "options": [
+        {
+          "content": "True",
+          "content_type": "TEXT",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "False",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        }
+      ]
+    },
+    {
+      "question_key": "sample_6",
+      "skills": ["topic name", "unit name", "sub topic in unit"],
+      "toughness": "EASY",
+      "question_type": "MORE_THAN_ONE_MULTIPLE_CHOICE",
+      "question": {
+        "content": "Multiple choice question with more than one correct answers?",
+        "content_type": "TEXT",
+        "multimedia": []
+      },
+      "options": [
+        {
+          "content": "heading",
+          "content_type": "TEXT",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "span",
+          "content_type": "TEXT",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "paragraph",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        },
+        {
+          "content": "image",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        }
+      ]
+    },
+    {
+      "question_key": "sample_7",
+      "skills": ["topic name", "unit name", "sub topic in unit"],
+      "toughness": "EASY",
+      "question_type": "CODE_ANALYSIS_MORE_THAN_ONE_MULTIPLE_CHOICE",
+      "question_text": "Code analysis question with more than one correct answers",
+      "content_type": "TEXT",
+      "input_output": [
+        {
+          "input": "",
+          "wrong_answers": [
+            "Title of the document is 'Heading'",
+            "Heading of the document is 'Document"
+          ],
+          "output": [
+            "Title of the document is 'Document'",
+            "Heading of the document is 'Heading"
+          ]
+        }
+      ],
+      "code_metadata": [
+        {
+          "is_editable": false,
+          "language": "JAVASCRIPT",
+          "code_data": "import { Component } from \"react\";\n\nclass Match extends Component {\n  state = {\n    team: \"Australia\"\n  };\n\n  onChangeTeam = () => {\n    this.setState({ team: \"India\" });\n  };\n\n  render() {\n    console.log(this.state.team);\n    return (\n      <div>\n        <h1>Team: {this.state.team}</h1>\n        <button onClick={this.onChangeTeam}>Change Team</button>\n      </div>\n    );\n  }\n}\n\nexport default Match;",
+          "default_code": true
+        }
+      ]
+    },
+    {
+      "question_key": "sample_8",
+      "skills": ["flexbox"],
+      "toughness": "EASY",
+      "question_type": "MULTIPLE_CHOICE",
+      "question": {
+        "content": "Match Column 1 with Column 2.\n\n\n\n| Column 1 (CSS Property) | Column 2 (Default value) |\n| :---------------------- | :----------------------- |\n| 1) align-items          | A) nowrap                |\n| 2) overflow             | B) flex-start            |\n| 3) flex-wrap            | C) visible               |\n| 4) justify-content      | D) stretch               |\n",
+        "content_type": "MARKDOWN",
+        "multimedia": []
+      },
+      "options": [
+        {
+          "content": "1 - D, 2 - C, 3 - A, 4 - B",
+          "content_type": "TEXT",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "1 - D, 2 - C, 3 - B, 4 - A",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        },
+        {
+          "content": "1 - D, 2 - A, 3 - C, 4 - B",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        },
+        {
+          "content": "1 - A, 2 - D, 3 - C, 4 - B",
+          "content_type": "TEXT",
+          "is_correct": false,
+          "multimedia": []
+        }
+      ]
+    },
+    {
+      "question_key": "sample_9",
+      "skills": ["script_tag"],
+      "toughness": "EASY",
+      "question_type": "MULTIPLE_CHOICE",
+      "question": {
+        "content": "Which of the following is the minimal state required to build the given application?",
+        "content_type": "HTML",
+        "multimedia": [
+          {
+            "format": "IMAGE",
+            "url": "https://res.cloudinary.com/duhmfvwzi/image/upload/q_auto:best/v1635265894/Peek_2021-10-26_21-599_rwsadl.gif",
+            "thumbnail_url": "https://res.cloudinary.com/duhmfvwzi/image/upload/q_auto:best/v1635265894/Peek_2021-10-26_21-599_rwsadl.gif"
+          }
+        ]
+      },
+      "options": [
+        {
+          "content": "```jsx\nconst [userInput, setUserInput] = useState('')\n```",
+          "content_type": "MARKDOWN",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "```jsx\nconst [userInput, setUserInput] = useState('')\nconst [addUserInput, setAddUserInput] = useState(true)\nconst [removeUserInput, setRemoveUserInput] = useState(false)\n```",
+          "content_type": "MARKDOWN",
+          "is_correct": false,
+          "multimedia": []
+        }
+      ]
+    },
+    {
+      "question_key": "sample_10",
+      "skills": ["authentication", "react"],
+      "toughness": "EASY",
+      "question_type": "MULTIPLE_CHOICE",
+      "question": {
+        "content": "Considering the given code snippets, which of the following code snippets is used to display the output as shown in the given image when the viewport width is <b>712px</b>?\n\n```jsx\n// ----------------> src/App.js <-------------------\nimport {Heading} from './styledComponents'\n\nconst App = () => <Heading>React JS</Heading>\n\nexport default App\n```\n\n```jsx\n// ----------------> src/styledComponents.js <-------------------\nimport styled from 'styled-components'\n\n// Your code\n```",
+        "content_type": "MARKDOWN",
+        "multimedia": [
+          {
+            "format": "IMAGE",
+            "url": "https://assets.ccbp.in/frontend/content/react-js/common-mistakes-2-route-fetch-wrong-route-path.gif",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/content/react-js/common-mistakes-2-route-fetch-wrong-route-path.gif"
+          }
+        ]
+      },
+      "options": [
+        {
+          "content": "```js\nexport const Heading = styled.h1`\n  text-decoration: overline;\n  @media screen and (min-width: 576px) {\n    text-decoration: underline;\n  }\n`\n```",
+          "content_type": "MARKDOWN",
+          "is_correct": true,
+          "multimedia": []
+        },
+        {
+          "content": "```js\nexport const Heading = styled.h1`\n  text-decoration: underline;\n  @media screen and (min-width: 576px) {\n    text-decoration: overline;\n  }\n`\n```",
+          "content_type": "MARKDOWN",
+          "is_correct": false,
+          "multimedia": []
+        },
+        {
+          "content": "```js\nexport const Heading = styled.button`\n  text-decoration: overline;\n  @media screen and (min-width: 576px) {\n    text-decoration: underline;\n  }\n`\n```",
+          "content_type": "MARKDOWN",
+          "is_correct": false,
+          "multimedia": []
+        }
+      ]
+    }
+  ],
+  "total": 10
+}
